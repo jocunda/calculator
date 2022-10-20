@@ -7,6 +7,17 @@
     border-radius: 10px;
 }
 
+.monitor {
+    text-align: right;
+    margin: 40px 15px 0 0;
+
+
+    & p {
+
+        margin: 0;
+        font-size: 45px;
+    }
+}
 
 .calcbtnContainer {
     display: grid;
@@ -29,7 +40,7 @@
 }
 
 .btngrey {
-    background-color: $philipsilver;
+    background-color: $gray;
 }
 
 .btnzero {
@@ -38,4 +49,9 @@
 
 .btndot {
     grid-column: 3/4;
+}
+
+.btntotal {
+    background-color: $spirodisco;
+    font-weight: 700;
 }

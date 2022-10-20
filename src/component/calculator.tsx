@@ -1,11 +1,12 @@
 
 import styles from './calculator.module.scss'
+import cx from 'classnames'
 
 
 export default function Calculator() {
     return <>
         <div className={styles.calculator}>
-            <section>
+            <section className={styles.monitor}>
                 <p>0</p>
             </section>
             <section className={styles.calcbtnContainer}>
@@ -13,21 +14,21 @@ export default function Calculator() {
                 <button className={styles.btngrey}>-/+</button>
                 <button className={styles.btngrey}>%</button>
                 <button className={styles.btngrey}>/</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+                <button className={styles.btndavygrey}>7</button>
+                <button className={styles.btndavygrey}>8</button>
+                <button className={styles.btndavygrey}>9</button>
                 <button className={styles.btngrey}>*</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
+                <button className={styles.btndavygrey}>4</button>
+                <button className={styles.btndavygrey}>5</button>
+                <button className={styles.btndavygrey}>6</button>
                 <button className={styles.btngrey}>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+                <button className={styles.btndavygrey}>1</button>
+                <button className={styles.btndavygrey}>2</button>
+                <button className={styles.btndavygrey}>3</button>
                 <button className={styles.btngrey}>+</button>
-                <button className={styles.btnzero}>0</button>
-                <button className={styles.btndot}>.</button>
-                <button>=</button>
+                <button className={cx(styles.btndavygrey, styles.btnzero)}>0</button>
+                <button className={cx(styles.btndavygrey, styles.btndot)}>.</button>
+                <button className={styles.btntotal}>=</button>
             </section>
         </div>
     </>
