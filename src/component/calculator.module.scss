@@ -1,0 +1,41 @@
+@import '../sass/color.scss';
+
+
+
+.calculator {
+    background-color: $blackvampire;
+    border-radius: 10px;
+}
+
+
+.calcbtnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: auto;
+    gap: 5px;
+    padding: 10px;
+
+    & button {
+        color: $antiflashwhite;
+        border-radius: 10px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+}
+
+.btndavygrey {
+    background-color: $davygrey;
+}
+
+.btngrey {
+    background-color: $philipsilver;
+}
+
+.btnzero {
+    grid-column: 1/3;
+}
+
+.btndot {
+    grid-column: 3/4;
+}
