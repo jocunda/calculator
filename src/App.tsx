@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Calculator from './component/calculator';
+import { LightModeContext, LightModeProvider } from './component/lightModeContext';
 
 export default function App() {
   return (
     <div className="App">
-      <Calculator />
+      <LightModeProvider>
+        <Calculator />
+      </LightModeProvider>
     </div>
   );
 }
