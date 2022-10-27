@@ -14,12 +14,15 @@
 .monitor {
     text-align: right;
     margin: 40px 15px 0 0;
+    font-size: 45px;
 
+    & .prevmonitor {
+        font-size: 20px;
+        color: $davygrey;
+    }
 
     & p {
-
         margin: 0;
-        font-size: 45px;
     }
 }
 

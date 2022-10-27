@@ -1,6 +1,6 @@
 import './App.css';
 import Calculator from './component/calculator';
-import { LightModeContext, LightModeProvider } from './component/lightModeContext';
+import { LightModeProvider } from './component/lightModeContext';
 
 export default function App() {
   return (
