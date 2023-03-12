@@ -11,5 +11,5 @@ Basic calculator operation with theme changer.
 
 **Calculator with Theme**
 
-<img src="https://github.com/jocunda/calculator/blob/master/src/assets/calculator.jpg" width="250px">
+<img src="https://github.com/jocunda/calculator/blob/master/src/assets/calculator.jpg" width="350px">
 
