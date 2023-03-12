@@ -100,7 +100,7 @@ export default function Calculator() {
                 {lightMode ? <FiSun className={styles.lighticon} /> : <FiMoon />}
             </section>
             <section className={styles.monitor}>
-                <p className={styles.prevmonitor}>{monitor}</p>
+                {/* <p className={styles.prevmonitor}>{inputNum}</p> */}
                 <p>{monitor}</p>
             </section>
             <section className={styles.calcbtnContainer}>
