@@ -9,10 +9,7 @@ Basic calculator operation with theme changer.
 - Have basic calculator operation such as plus, minus, divide and multiple
 - Change theme color for light and dark
 
-**Dark Theme**
+**Calculator with Theme**
 
-<img src="" width="250px">
+<img src="https://github.com/jocunda/calculator/blob/master/src/assets/calculator.jpg" width="250px">
 
-**Light Theme**
-
-<img src="" width="250px">
